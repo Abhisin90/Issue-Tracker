@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="top">
+        <h1><span>JS Issue Tracker</span> by glitchsin</h1>
+    </section>
+    
+    <div class="card issue">
+        <h2>Add new Issue:</h2>
+        <form >
+            <h3>Description</h3>
+            <input type="text" placeholder="Describe the issue ..." name="description">
+            <h3>Severity</h3>
+            <select name="severity" id="" name="severity">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>  
+            <h3>Assigned to</h3>
+            <input type="text" placeholder="Enter Responsible ..." name="assigned">
+            <br>
+            <button class="add">Add</button>
+        </form>
+    </div>
+
+    <div class="issueKeeper card issue">
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
